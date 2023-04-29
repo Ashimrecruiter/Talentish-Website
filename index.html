@@ -1,43 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Talentish HR - Where Talent meets Opportunity</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Talentish HR</h1>
-      <h2>Where Talent meets Opportunity</h2>
-    </header>
-    <section id="about">
-      <h3>About us</h3>
-      <p>Welcome to Talentish HR, where talent meets opportunity! We are a fresh HR consulting firm led by two extremely experienced individuals that offer 360-degree HR services, with a primary focus on recruiting. Our goal is to help businesses and organizations attract and retain the best talent in the industry, so they can achieve their goals and succeed in the market.</p>
-      <p>Our founders, Ashim Suri and Shuchi Mehrotra, bring years of experience and expertise to the table. Ashim has almost 20 years of experience in recruiting and has worked with top-notch companies like Facebook, Samsung, Global Logic, Randstad, and Manpower, amongst others. His extensive experience in the industry has helped him develop a deep understanding of the recruitment landscape, which he leverages to help clients find the best talent. On the other hand, Shuchi is a thorough HR professional who has helped start-ups and world leaders alike. She has a knack for understanding the unique needs of each business and developing customized solutions that align with their goals. Her vast experience in HR has helped her build a strong network of HR professionals, which she uses to offer value to our clients.</p>
-    </section>
-    <section id="services">
-      <h3>Our Services</h3>
-      <ul>
-        <li>Recruiting</li>
-        <li>Employee engagement and retention</li>
-        <li>HR compliance</li>
-        <li>Performance management</li>
-        <li>Leadership development</li>
-        <li>HR outsourcing</li>
-      </ul>
-      <p>We understand that every business has unique HR needs, which is why we offer customized solutions tailored to meet those needs. Whether you're a small start-up or a large corporation, we have the expertise and experience to help you manage your HR needs effectively.</p>
-    </section>
-    <section id="contact">
-      <h3>Contact us</h3>
-      <form action="submit-form.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </body>
-</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Talentish HR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #293147;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #293147;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 40px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    a {
+      color: #FEFEFE;
+      background-color: #FEC32B;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    a:hover {
+      background-color: #FFA500;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    .primary-color {
+      color: #293147;
+    }
+    .secondary-color {
+      color: #FEFEFE;
+    }
+    .background-color {
+      background-color: #FEFEFE;
+    }
+    .accent-color {
+      color: #FEC32B;
+    }
+    .header {
+      background-color: #293147;
+      color: #FEFEFE;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 50px;
+      margin-bottom: 0;
+    }
+    .header p {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Talentish HR</h1>
+    <p>Where Talent meets Opportunity</p>
+  </header>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Welcome to Talentish HR, where talent meets opportunity! We are a fresh HR consulting firm led by two extremely experienced individuals that offer 360-degree HR services, with a primary focus on recruiting. Our goal is to help businesses and organizations attract and retain the best talent in the industry, so they can achieve their goals and succeed in the market.</p>
+    <p>Our founders, Ashim Suri and Shuchi Mehrotra, bring years of experience and expertise to the table. Ashim has almost 20 years of experience in recruiting and has worked with top-notch companies like Facebook, Samsung, Global Logic, Randstad, and Manpower, amongst others. His extensive experience in the industry has helped him develop a deep understanding of the recruitment landscape, which he leverages to help clients find the best talent.</p>
+    <p>On the other hand, Shuchi is a
