@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Talentish - Where Talent Meets Opportunity</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Talentish HR - Where Talent meets Opportunity</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Welcome to Talentish</h1>
-      <p>Where talent meets opportunity</p>
-      <a href="#services">Find your next opportunity today</a>
+      <h1>Talentish HR</h1>
+      <h2>Where Talent meets Opportunity</h2>
     </header>
-    <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>Talentish was founded by Ashim Suri and Shuchi Mehrotra. Ashim has almost 20 years of recruiting experience and has worked with companies like Facebook, Samsung, Global Logic, Randstad and Manpower amongst others. Shuchi is a thorough HR professional and has helped startups and world leaders alike.</p>
-        <p>Together, they have built a team of experienced recruiters and career coaches who are dedicated to helping our clients succeed. We offer personalized service and support throughout the job search process, and we are committed to matching talented professionals with the right opportunities.</p>
-      </section>
-      <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-          <li>Job placement</li>
-          <li>Resume writing</li>
-          <li>Interview coaching</li>
-        </ul>
-        <a href="#contact">Contact us to learn more</a>
-      </section>
-    </main>
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#jobs">Job Board</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
-    </footer>
+    <section id="about">
+      <h3>About us</h3>
+      <p>Welcome to Talentish HR, where talent meets opportunity! We are a fresh HR consulting firm led by two extremely experienced individuals that offer 360-degree HR services, with a primary focus on recruiting. Our goal is to help businesses and organizations attract and retain the best talent in the industry, so they can achieve their goals and succeed in the market.</p>
+      <p>Our founders, Ashim Suri and Shuchi Mehrotra, bring years of experience and expertise to the table. Ashim has almost 20 years of experience in recruiting and has worked with top-notch companies like Facebook, Samsung, Global Logic, Randstad, and Manpower, amongst others. His extensive experience in the industry has helped him develop a deep understanding of the recruitment landscape, which he leverages to help clients find the best talent. On the other hand, Shuchi is a thorough HR professional who has helped start-ups and world leaders alike. She has a knack for understanding the unique needs of each business and developing customized solutions that align with their goals. Her vast experience in HR has helped her build a strong network of HR professionals, which she uses to offer value to our clients.</p>
+    </section>
+    <section id="services">
+      <h3>Our Services</h3>
+      <ul>
+        <li>Recruiting</li>
+        <li>Employee engagement and retention</li>
+        <li>HR compliance</li>
+        <li>Performance management</li>
+        <li>Leadership development</li>
+        <li>HR outsourcing</li>
+      </ul>
+      <p>We understand that every business has unique HR needs, which is why we offer customized solutions tailored to meet those needs. Whether you're a small start-up or a large corporation, we have the expertise and experience to help you manage your HR needs effectively.</p>
+    </section>
+    <section id="contact">
+      <h3>Contact us</h3>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </body>
 </html>
